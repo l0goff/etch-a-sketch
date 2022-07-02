@@ -1,0 +1,22 @@
+* {border: 1px solid green;}
+
+
+#title{
+    display: flex;
+    background-color: black;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: center;
+}
+
+#body {
+    background-color: antiquewhite;
+}
+
+#gridcontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    min-width: 960px;
+    min-height: 960px;
+}
