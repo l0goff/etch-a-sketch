@@ -1,5 +1,4 @@
-* {border: 1px solid green;}
-
+/* {border: 1px solid green;} */
 
 #title{
     display: flex;
@@ -13,10 +12,44 @@
     background-color: antiquewhite;
 }
 
-#gridcontainer {
+#container {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    min-width: 960px;
-    min-height: 960px;
+    padding: 50px;
+    min-width: 600px;
+    min-height: 600px;
+}
+
+.divrow {
+  border: 1x solid grey;
+}
+
+.divsquare {
+  border: thin solid rgb(175, 175, 175);
+  padding: 6px;
+  margin: 0px;
+  background-color: rgb(255, 255, 255);
+
+}
+.divsquare:hover {  
+  background-color: rgb(0, 0, 0);
+
+}
+#buttondiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+}
+#gridbtn {
+  background-color: green;
+  border: 2px groove darkgreen;
+  color: white;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 20px;
+  justify-content: center;
+  align-content: center;
 }
